@@ -5,8 +5,8 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 
-clf = pickle.load(open('.venv/clf.pkl', 'rb'))
-tfidf = pickle.load(open('.venv/tfidf.pkl', 'rb'))#vectorization
+clf = pickle.load(open('./clf.pkl', 'rb'))
+tfidf = pickle.load(open('./tfidf.pkl', 'rb'))#vectorization
 
 
 def clearnResume(txt):
